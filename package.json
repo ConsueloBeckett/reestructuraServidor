@@ -1,0 +1,17 @@
+{
+  "name": "reestructuraservidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "middleware": "^1.0.0",
+    "mongoose": "^8.0.1"
+  }
+}
