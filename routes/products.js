@@ -1,9 +1,10 @@
-const express = require('express')
-const routes = express.Router()
-const productsController = require("../controllers/productsController.js")
+import  express from "express"
+import productsController from "../controllers/productsController.js"
 
+
+const routes = express.Router()
 //controladores 
 routes.get("/", productsController.getAllProducts)
 routes.post("/", productsController.createProduct)
 
-module.exports = routes
+export default routes

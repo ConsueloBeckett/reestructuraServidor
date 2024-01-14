@@ -13,7 +13,7 @@ function createProduct(req, res){
 }
 
 //exportacion desde routes 
-module.exports={
+export default {
     getAllProducts,
     createProduct
 }

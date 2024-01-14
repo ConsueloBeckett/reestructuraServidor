@@ -13,7 +13,7 @@ function createUser(req, res){
 }
 
 //exportacion desde routes 
-module.exports={
+export default {
     getAllUsers,
     createUser
 }
